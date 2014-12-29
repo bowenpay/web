@@ -1,0 +1,117 @@
+    <div ng-include src="'views/nav.html'"></div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+              <div class="left withdraw">
+                <img src="images/slide_withdraw_title.png"/>
+                <p>积分不再闲置，在波纹平台，您可以将积分兑换成现金</p>
+              </div>
+              <img src="images/slide_withdraw_bg.png" class="right withdraw"/>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container">
+              <div class="left exchange">
+                <img src="images/slide_exchange_title.png"/>
+                <p>破除积分之间壁垒，在波纹平台，您可以自由兑换所需积分</p>
+              </div>
+              <img src="images/slide_exchange_bg.png" class="right exchange"/>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container">
+              <div class="left send">
+                <img src="images/slide_send_title.png"/>
+                <p>亲朋好友的积分汇至一处，小积分也是大积蓄</p>
+              </div>
+              <img src="images/slide_send_bg.png" class="right send"/>
+            </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <div class="container">
+        <div class="index-qrcode"><img src="images/index-qrcode.jpg"/><p>扫一扫关注微信</p></div>
+      </div>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-circle" src="images/safe.png" style="width: 140px; height: 140px;">
+          <h2>安全</h2>
+          <p style="width:70%; margin:0 15%">波纹积分平台使用Ripple作为底层协议，具备银行级别的安全性。</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+          <img class="img-circle" src="images/fly.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>快速</h2>
+          <p style="width:70%; margin:0 15%">采用先进的“共识”机制修改总账，分布式的交易结算，快速达成交易。</p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+          <img class="img-circle" src="images/eazy.png" style="width: 140px; height: 140px;">
+          <h2>便捷</h2>
+          <p style="width:70%; margin:0 15%">商家免费入驻，当天即可开通积分系统，并且共享现有的所有客户资源。</p>
+        </div><!-- /.col-md-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <ul class="lead-lg">
+            <li>闲置积分卖出</li>
+            <li>购买积分以获得商家优惠</li>
+            <li>手机扫码，定位直接支付，转账给朋友</li>
+            <li>不同积分相互兑换</li>
+            <li>交易实时，安全</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive img-rounded" src="images/p1.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive img-rounded" src="images/p2.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-offset-1">
+          <ul class="lead-lg">不论是餐馆的顾客<br/>还是银行的储户<br/>亦或是电商网站的买家<br/>都可以享受前所未有的积分体验。
+          </ul>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+      <div ng-include src="'views/footer.html'"></div>
+    </div><!-- /.container -->
+
