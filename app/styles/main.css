@@ -172,32 +172,33 @@ body{
           display: inline-block;
           margin:10px auto;
           border-radius: 10px;
-       }
-     .slogan{
-      height: 40px;
-   
-      font-size: 32px;
-      text-align: center;
-      line-height: 40px;
-      margin:0px auto;
-      padding: 30px;
-    }
- .peopleouter{
-           width: 100%;
-          display: block;     
-       }
+      }
+.slogan{
+    height: 40px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    margin:0px auto;
+    padding: 30px;
+}
+
+.peopleouter{
+    width: 100%;
+    display: block;     
+}
 .peopleinner{
-         width: 61.2%;
-         margin:40px auto;
-       }
+    width: 61.2%;
+    margin:40px auto;
+}
 .people{
-          display: inline-block;
-          margin:20px 30px;
-          border-radius: 10px;
-       }
+    display: inline-block;
+    margin:20px 30px;
+    border-radius: 10px;
+}
 .serve img{
-           border-radius: 20px;
-       }
+    border-radius: 20px;
+    width:90%;
+}
 
 .experience{
     background-color: #32afe6;
@@ -206,9 +207,9 @@ body{
     text-align: center;
     line-height:80px;
     margin-bottom: 0px;
-  }
+}
 .expstart{
-       display: inline-block;
+    display: inline-block;
   }
 .expfocus{
     display: inline-block;
@@ -227,42 +228,40 @@ body{
     background-color: #343a3d;
     color:white;
     text-align: center;
-     line-height:150px;
-  
+    line-height:150px;
     font-weight: bold;
 
-  }
-  .footer p{
-        margin:0 auto;
+}
+.footer p{
+    margin:0 auto;
   }
 
 .row .introduc{
-        width: 75%;
+    width: 75%;
 }
-  .myMarousel{
-      margin-bottom: 0px;
-  }
+.myMarousel{
+    margin-bottom: 0px;
+}
 .lead-lg {
-  font-size: 24px;
-  line-height: 2;
-  vertical-align: middle;
-  height:100%;
+    font-size: 24px;
+    line-height: 2;
+    vertical-align: middle;
+    height:100%;
 }
-
 .content-title {
-  padding-left: 16px;
+   padding-left: 16px;
 }
 .contact {
-  padding-left: 32px;
+   padding-left: 32px;
 }
 .name span {
-  font-size: 16px;
-  font-weight: bold;
-  padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 10px;
 }
 .wx-img {
-  width:300px;
-  height:450px;
+    width:300px;
+    height:450px;
 }
 
 /* CUSTOMIZE THE NAVBAR
@@ -270,25 +269,28 @@ body{
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-  
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+ 
 }
 
 
@@ -297,9 +299,8 @@ body{
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
- 
-  background-color: #28a7e1;
+    height: 500px; 
+    background-color: #28a7e1;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -308,16 +309,16 @@ body{
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+    height: 500px;
 }
 .carousel .item .left {
-  position: absolute;
-  text-align: right;
+    position: absolute;
+    text-align: right;
 }
 .carousel .item .right {
-  position: absolute;
-  top:auto;
-  height:400px;
+    position: absolute;
+    top:auto;
+    height:400px;
 }
 .carousel .item .left > p{
   color: white;
@@ -326,36 +327,36 @@ body{
 
 
 .carousel .index-qrcode {
-  position: absolute;
-  top:auto;
-  bottom: 20px;
-  z-index: 10;
+    position: absolute;
+    top:auto;
+    bottom: 20px;
+    z-index: 10;
 }
 
 .carousel .index-qrcode img {
-  height:128px;
-  width: 128px;
-  padding:1px;
-  background-color: #66b9f6;
+    height:128px;
+    width: 128px;
+    padding:1px;
+    background-color: #66b9f6;
 }
 .carousel .index-qrcode p {
-  font-size: 14px;
-  color: white;
+    font-size: 14px;
+    color: white;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-md-4 {
-  margin-bottom: 20px;
-  text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .marketing h2 {
-  font-weight: normal;
+    font-weight: normal;
 }
 .marketing .col-md-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
@@ -363,17 +364,17 @@ body{
 ------------------------- */
 
 .featurette-divider {
-  margin: 20px 0; /* Space out the Bootstrap <hr> more */
+   margin: 20px 0; /* Space out the Bootstrap <hr> more */
 }
 
 .featurette-top-divider {
-  margin: 80px 0 20px 0; /* Space out the Bootstrap <hr> more */
+   margin: 80px 0 20px 0; /* Space out the Bootstrap <hr> more */
 }
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
 }
 
 
@@ -384,31 +385,31 @@ body{
 @media (min-width: 768px) {
 
   /* Navbar positioning foo */
-  .navbar-wrapper {
+.navbar-wrapper {
     margin-top: 20px;
-  }
-  .navbar-wrapper .container {
+}
+.navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
+}
+.navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
-  }
+}
 
   /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
+.navbar-wrapper .navbar {
     border-radius: 4px;
-  }
+}
 
   /* Bump up size of carousel content */
-  .carousel-caption p {
+.carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
-  }
+}
 
-  .featurette-heading {
+.featurette-heading {
     font-size: 50px;
   }
 
@@ -419,22 +420,20 @@ body{
     margin-top: 120px;
   }
 }
-
-
 @media (max-width:768px) {
 
-  .carousel .item .left > img{
+.carousel .item .left > img{
     width:200px;
     height:auto;
-  }
-  .carousel .item .left {
+}
+.carousel .item .left {
     text-align: center;
     top:30%;
     left: 0;
     right: 0;
     margin: auto;
-  }
-  .carousel .item .right {
+}
+.carousel .item .right {
     width: 30%;
     height: auto;
     top:auto;
@@ -443,7 +442,7 @@ body{
     right: 0;
     margin: auto;
     opacity: 0.5;
-  }
+}
 
 }
 
@@ -499,7 +498,6 @@ body{
   .carousel .item .right.withdraw {
     bottom: 40px;
     left: 50%;
-
     width: 350px;
     height:auto;
   }
@@ -510,7 +508,6 @@ body{
   .carousel .item .right.exchange {
     bottom: 0;
     left: 40%;
-
     width: 500px;
     height:auto;
   }
@@ -542,7 +539,6 @@ body{
   .carousel .item .right.exchange {
     bottom: 0;
     left: 45%;
-
     width: 600px;
     height:auto;
   }
