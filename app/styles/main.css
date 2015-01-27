@@ -23,6 +23,7 @@ body{
   margin:0 auto;
   text-align: center;
   line-height: 253px;
+  vertical-align: center;
 }
 .coloraq{
     color:#23be94;
@@ -47,8 +48,8 @@ body{
      
 }
 .introducesl{
-      width:70%; 
-      margin:15px 15%;
+      width:80%; 
+     
       font-weight:bold; 
       color: #7f8c8d;
 }
@@ -56,34 +57,17 @@ body{
     background-color: #ebebeb;
 }
 .servetable{
-    margin:0 auto;
-    margin-top: 50px;
-    width: 70%;
-    margin-bottom: 30px;
- 
+  margin: 40px auto;
+  margin-bottom: 30px;
+  width: 70%;  
 }
-
-
-.serviceinner{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-}
-
-.serviceouter{
-    margin-bottom: 20px;
-}
-
-
 .serveimg{
    width: 85%;
-
    margin: 20px auto;
    border: 0px;
    border-radius: 10px;
  
 }
-
 .slogan{
       height: 40px;  
       font-size: 32px;
@@ -91,20 +75,20 @@ body{
       line-height: 40px;
       margin:0px auto;
       padding: 30px;
-    }
- 
-
+      margin-bottom: 20px;
+} 
 .experience{
     background-color: #32afe6;
     font-size: 24px;
     color: white;
     text-align: center;
-    line-height:100px;
+    line-height:150px;
     margin-bottom: 0px;
-  }
+}
+
 .expstart{
        display: inline-block;
-  }
+}
 .expfocus{
     display: inline-block;
     width: 150px;
@@ -122,50 +106,44 @@ body{
     background-color: #343a3d;
     color:white;
     text-align: center;
-     line-height:150px;
-  
+    line-height:50px;  
     font-weight: bold;
-
-  }
-.footer p{
-        margin:0 auto;
-  }
+}
+.footer p{   
+    height:150px;
+    text-align: center;
+    line-height: 150px;
+}
 
 .footer_white{
-       height: 100px;
-       width: 100%;
-   
-  
-     text-align: center;
-     line-height:100px;
-  
-     font-weight: bold;
+    height: 100px;
+    width: 100%;  
+    text-align: center;
+    line-height:50px;
+    font-weight: bold;
 }
 
 .footertr_white p{
-        margin:0 auto;
-  }
-
+    margin:0 auto;
+}
 .row{
-     width: 100%;
-     margin:0 auto;
-     margin-bottom: 30px;
-
+    width: 100%;
+    margin:0 auto;
+    margin-bottom: 30px;
 }
 .introduceh{
-     margin: 0 auto;    
-     padding: 0px;
-     margin-top: 0px;
-     text-align: center;    
+    margin: 0 auto;    
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;    
 }
 .introducesl{
-      width:80%; margin:15px 15%;  font-weight:bold; 
-    }
+    width:80%; margin:15px 15%;  font-weight:bold; 
+}
 
 .row .introduc{
     width: 75%;
 }
-
 .myMarousel{
     margin-bottom: 0px;
 }
@@ -179,7 +157,7 @@ body{
    padding-left: 16px;
 }
 .contact {
-   padding-left: 32px;
+    padding-left: 32px;
 }
 .name span {
     font-size: 16px;
@@ -200,8 +178,7 @@ body{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 20;
-    
+    z-index: 20;    
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -213,14 +190,10 @@ body{
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
- 
+  width: auto; 
 }
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -248,11 +221,9 @@ body{
     height:400px;
 }
 .carousel .item .left > p{
-  color: white;
-  margin-top: 12px;
+    color: white;
+    margin-top: 12px;
 }
-
-
 .carousel .index-qrcode {
     position: absolute;
     top:auto;
@@ -308,9 +279,18 @@ body{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
-@media (min-width: 768px) {
-
+@media (min-width: 668px) and (max-width: 750px) {
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #343a3d;
+    color:white;  
+    font-weight: bold;
+}
+.companyinfo{
+    text-align: center;
+    line-height:150px;
+}
   /* Navbar positioning foo */
 .navbar-wrapper {
     margin-top: 20px;
@@ -347,6 +327,7 @@ body{
     margin-top: 120px;
   }
 }
+
 @media (max-width:768px) {
   .slogan{
     height: 20px;
@@ -356,13 +337,13 @@ body{
     margin:0px auto;
     padding: 10px;
 }
-.serveimg{
-  width: 95%;
 
+.serveimg{
+   width: 95%;
    margin: 5px auto;
    border: 0px;
- 
 }
+
 .carousel .item .left > img{
     width:200px;
     height:auto;
@@ -387,76 +368,160 @@ body{
 
 }
 
-@media (min-width:768px) and (max-width: 990px) {
+@media (max-width:320px) {
 
-  .carousel .item .left > img{
+.iconfont{
+    font-size:200px;
+}
+.experience{
+    background-color: #32afe6;
+    height:130px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.expstart{
+    display: inline-block;
+}
+
+.expfocus{
+    display: inline-block;
+    margin-top: 0px;
+ }
+}
+ 
+@media (max-width:375px) {
+.experience{
+    background-color: #32afe6;
+    height:130px;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+
+.expstart{
+    display: inline-block;
+}
+
+.expfocus{
+    display: inline-block;
+    margin-top: 0px;
+ }
+}
+
+@media (min-width: 414px) {
+.experience{
+    background-color: #32afe6;
+    height:130px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+.expstart{
+    display: inline-block;
+}
+
+.expfocus{
+    display: inline-block;
+    margin-top: 0px;
+}
+.footer p{ 
+    height:150px;
+    text-align: center;
+    line-height: 150px;
+ }
+}
+@media (min-width: 1000px) {
+.experience{
+    background-color: #32afe6;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height:150px;
+    margin-bottom: 0px;
+}
+.expstart{
+    display: inline-block;
+}
+.expfocus{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border:solid 2px white;
+    margin-top:20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height:60px;
+}
+
+}
+@media (min-width:768px) and (max-width: 990px) {
+.carousel .item .left > img{
     width:200px;
     height:auto;
-  }
-  .carousel .item .left.withdraw {
+}
+.carousel .item .left.withdraw {
     top: 200px;
     right: 50%;
-  }
-  .carousel .item .right.withdraw {
+}
+.carousel .item .right.withdraw {
     bottom: 100px;
     left: 50%;
-
     width: 260px;
     height:auto;
-  }
-  .carousel .item .left.exchange {
+}
+.carousel .item .left.exchange {
     top: 200px;
     right: 43%;
-  }
-  .carousel .item .right.exchange {
+}
+.carousel .item .right.exchange {
     bottom: 0;
     left: 40%;
-
     width: 400px;
     height:auto;
-  }
-  .carousel .item .left.send {
+}
+.carousel .item .left.send {
     top: 200px;
     right: 55%;
-  }
-  .carousel .item .right.send {
+}
+.carousel .item .right.send {
     bottom: 170px;
     left: 50%;
     width: 280px;
     height: auto;
   }
 }
-
 @media (min-width:990px) and (max-width: 1200px) {
-  .carousel .item .left > img{
+.carousel .item .left > img{
     width:250px;
     height:auto;
-  }
-  .carousel .item .left.withdraw {
+}
+.carousel .item .left.withdraw {
     top: 200px;
     right: 50%;
-  }
-  .carousel .item .right.withdraw {
+}
+.carousel .item .right.withdraw {
     bottom: 40px;
     left: 50%;
     width: 350px;
     height:auto;
-  }
-  .carousel .item .left.exchange {
+}
+.carousel .item .left.exchange {
     top: 200px;
     right: 43%;
-  }
-  .carousel .item .right.exchange {
+}
+.carousel .item .right.exchange {
     bottom: 0;
     left: 40%;
     width: 500px;
     height:auto;
-  }
-  .carousel .item .left.send {
+}
+.carousel .item .left.send {
     top: 200px;
     right: 55%;
-  }
-  .carousel .item .right.send {
+}
+.carousel .item .right.send {
     bottom: 100px;
     left: 50%;
     width: 420px;
@@ -465,35 +530,35 @@ body{
 }
 
 @media (min-width:1200px) {
-  .carousel .item .left.withdraw {
+.carousel .item .left.withdraw {
     top: 200px;
     right: 45%;
-  }
-  .carousel .item .right.withdraw {
+}
+.carousel .item .right.withdraw {
     bottom: 10px;
     left: 55%;
-  }
-  .carousel .item .left.exchange {
+}
+.carousel .item .left.exchange {
     top: 150px;
     right: 41%;
-  }
-  .carousel .item .right.exchange {
+}
+.carousel .item .right.exchange {
     bottom: 0;
     left: 45%;
     width: 600px;
     height:auto;
-  }
-  .carousel .item .left.send {
+}
+.carousel .item .left.send {
     top: 200px;
     right: 55%;
-  }
-  .carousel .item .right.send {
+}
+.carousel .item .right.send {
     bottom: 30px;
     left: 50%;
     width: 500px;
     height:auto;
-  }
-  .carousel .item .left > img{
+}
+.carousel .item .left > img{
 
   }
 }
