@@ -47,29 +47,40 @@ body{
      
 }
 .introducesl{
-      width:70%; margin:15px 15%;  font-weight:bold; 
+      width:70%; 
+      margin:15px 15%;
+      font-weight:bold; 
       color: #7f8c8d;
+}
+.servicebgc{
+    background-color: #ebebeb;
 }
 .servetable{
     margin:0 auto;
     margin-top: 50px;
     width: 70%;
+    margin-bottom: 30px;
+ 
 }
+
+
 .serviceinner{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 
-.servetr{
-   margin-top: 0px;
-
+.serviceouter{
+    margin-bottom: 20px;
 }
 
-img{
+
+.serveimg{
    width: 85%;
 
    margin: 20px auto;
    border: 0px;
+   border-radius: 10px;
  
 }
 
@@ -148,7 +159,7 @@ img{
      text-align: center;    
 }
 .introducesl{
-      width:70%; margin:15px 15%;  font-weight:bold; 
+      width:80%; margin:15px 15%;  font-weight:bold; 
     }
 
 .row .introduc{
@@ -345,7 +356,7 @@ img{
     margin:0px auto;
     padding: 10px;
 }
-img{
+.serveimg{
   width: 95%;
 
    margin: 5px auto;
