@@ -101,20 +101,16 @@ body{
     line-height:60px;
 }
 .footer{
-    height: 150px;
-    width: 100%;
+ 
+    width:100%;
     background-color: #343a3d;
     color:white;
     text-align: center;
     line-height:50px;  
     font-weight: bold;
 }
-.footer p{   
-    height:150px;
-    text-align: center;
-    line-height: 150px;
-}
 
+ 
 .footer_white{
     height: 100px;
     width: 100%;  
@@ -215,12 +211,12 @@ body{
     position: absolute;
     text-align: right;
 }
-.carousel .item .right {
+.carousel .item .right{
     position: absolute;
     top:auto;
     height:400px;
 }
-.carousel .item .left > p{
+.carousel .item .left  p{
     color: white;
     margin-top: 12px;
 }
@@ -279,6 +275,34 @@ body{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width:375px) and (max-width: 400px){
+     
+    
+ .experience{
+    background-color: #32afe6;
+    height:130px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+.expstart{
+    display: inline-block;
+}
+
+.expfocus{
+    display: inline-block;
+    margin-top: 0px;
+}
+.footer p{ 
+    height:150px;
+    text-align: center;
+    line-height: 150px;
+    font-size:12px;
+ }
+
+
+
+}
 @media (min-width: 668px) and (max-width: 750px) {
 .footer{
     height: 150px;
@@ -378,6 +402,7 @@ body{
     height:130px;
     line-height: 50px;
     font-size: 20px;
+
 }
 
 .expstart{
@@ -388,26 +413,18 @@ body{
     display: inline-block;
     margin-top: 0px;
  }
+
+  footer{
+     height:100px;
+     text-align:center;
+     font-size:10px;
+     color:red;
+
+  }
+
 }
  
-@media (max-width:375px) {
-.experience{
-    background-color: #32afe6;
-    height:130px;
-    line-height: 50px;
-    font-size: 20px;
 
-}
-
-.expstart{
-    display: inline-block;
-}
-
-.expfocus{
-    display: inline-block;
-    margin-top: 0px;
- }
-}
 
 @media (min-width: 414px) {
 .experience{
