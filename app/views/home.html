@@ -124,13 +124,13 @@
    
     <div class="experience">
        <div class="expstart">体验积分消费的快感,现在就开始吧</div>
-       <div class="expfocus" >关注我们</div>
-       <div class="qr-outter" ng-click="displayQRCode()">
-        <div id="qrcode" class="qr-inner"></div>
-      </div>
+       <div class="expfocus" id="click_test2">关注我们</div>
     </div>
-
-    
+  <script type="text/javascript">
+        var content2 = "<img width='640' height='466' src='../images/index-qrcode.jpg'/>";
+        T$('click_test2').onclick = function(){TINY.box.show(content2,0,0,0,1)}
+  </script>
+  
 
       <!-- /END THE FEATURETTES -->
       <div ng-include src="'views/footer.html'"></div>
