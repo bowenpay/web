@@ -8,6 +8,9 @@ webControllers.controller('WebIndexCtrl', ['$scope', '$http', '$location',
   	$scope.isActive = function(route) {
         return route === $location.path();
     };
+    $scope.toggleQRCode = function(){
+        $(".qr-outter").toggleClass("show");
+    };
   }
 ]);
 webControllers.controller('WebProductCtrl', ['$scope', '$http', '$location',

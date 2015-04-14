@@ -580,7 +580,7 @@ body{
   }
 }
 
-/*******************/
+/*****弹出二维码相关代码*******/
 .qr-outter {
   position:fixed;
   top:0;
@@ -591,6 +591,21 @@ body{
   z-index: 10;
   display: none;
 }
+
 .qr-outter.show{
   display: block;
 }
+
+.qr-inner{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -121px;
+  margin-top:-121px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding:20px;
+}
+
+/*****弹出二维码相关代码*******/

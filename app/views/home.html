@@ -122,20 +122,17 @@
 </div>
 
    
-    <div class="experience">
-       <div class="expstart">体验积分消费的快感,现在就开始吧</div>
-       <div class="expfocus" id="click_test2">关注我们</div>
-    </div>
-  <script type="text/javascript">
-        var content2 = "<img width='640' height='466' src='../images/index-qrcode.jpg'/>";
-        T$('click_test2').onclick = function(){
-          alert("Hello");
-          TINY.box.show(content2,0,0,0,1);
-        }
-  </script>
+<div class="experience">
+   <div class="expstart">体验积分消费的快感,现在就开始吧</div>
+   <div class="expfocus" ng-click="toggleQRCode()">关注我们</div>
+</div>
+    
+<div class="qr-outter" ng-click="toggleQRCode()">
+  <div id="qrcode" class="qr-inner"><img src="images/index-qrcode.jpg"/></div>
+</div>
   
 
-      <!-- /END THE FEATURETTES -->
-      <div ng-include src="'views/footer.html'"></div>
+<!-- /END THE FEATURETTES -->
+<div ng-include src="'views/footer.html'"></div>
    
 
