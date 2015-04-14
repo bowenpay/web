@@ -8,7 +8,11 @@ webControllers.controller('WebIndexCtrl', ['$scope', '$http', '$location',
   	$scope.isActive = function(route) {
         return route === $location.path();
     };
-
+    $("#qrcode").qrcode({
+        width:200,
+        height:200,
+        text: "images/index-qrcode.jpg"
+    });
     $scope.displayQRCode = function(){
       $(".qr-outter").toggleClass("show");
     };

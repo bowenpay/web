@@ -47,7 +47,7 @@
         <span class="sr-only">Next</span>
       </a>
       <div class="container">
-        <div class="qr-outter index-qrcode" ng-click="displayQRCode()"><img src="images/index-qrcode.jpg"/><p class="saoyisao">扫一扫关注微信</p></div>
+        <div class="index-qrcode"><img src="images/index-qrcode.jpg"/><p class="saoyisao">扫一扫关注微信</p></div>
       </div>
     </div><!-- /.carousel -->
 <div class="container">
@@ -125,6 +125,9 @@
     <div class="experience">
        <div class="expstart">体验积分消费的快感,现在就开始吧</div>
        <div class="expfocus" >关注我们</div>
+       <div class="qr-outter" ng-click="displayQRCode()">
+        <div id="qrcode" class="qr-inner"></div>
+      </div>
     </div>
 
     
