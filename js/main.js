@@ -1,7 +1,6 @@
 /**
  * Created by yijingping on 2015/6/3.
  */
-
 var demo=new Vue({
     el: '#show',
     data:{
@@ -41,7 +40,7 @@ var demo=new Vue({
         //page5_4_color:"",
         page5_5_title:"BD工程师",
         page5_5_content:"负责波纹在线下餐饮，服务等行业的推广；负责与商户合作中的线下运营问题。",
-        page5_5_image:"./img/5_fn6.1.png",
+        page5_5_image:"./img/5_fn6.1.png"
 
     }
 });
