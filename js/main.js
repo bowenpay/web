@@ -24,7 +24,7 @@ var demo=new Vue({
         page3_3_2:"波纹积分，是一个积分消费平台",
 
         page5_1_title:"加入波纹",
-        page5_1_content:"北京波纹积分有限公司，是一个互联网金融公司。在这里，你定能找到价值所在。",
+        page5_1_content:"北京波纹科技有限公司，是一个互联网金融公司。在这里，你定能找到价值所在。",
         page5_1_mailbox:"简历请投递到:hr@bowenpay.com",
         page5_1_image:"./img/5_fn1.1.png",
         //page5_1_color:"",
@@ -38,7 +38,7 @@ var demo=new Vue({
         page5_4_content:"负责移动端相关产品架构设计和研发；测试和修正开发中发现的问题；学习和研究新技术以满足产品的需求,确保iOS项目开发进度与上线。",
         page5_4_image:"./img/compute.png",
         //page5_4_color:"",
-        page5_5_title:"BD工程师",
+        page5_5_title:"BD经理",
         page5_5_content:"负责波纹在线下餐饮，服务等行业的推广；负责与商户合作中的线下运营问题。",
         page5_5_image:"./img/5_fn6.1.png"
 
