@@ -10,11 +10,13 @@
     <meta name="description" content="波纹积分让积分不在鸡肋，可以消费" />
     <meta name="keywords"  content="波纹积分,积分消费,积分兑换,互联网" />
     <meta name="Resource-type" content="Document" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/examples.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
 
     <link rel="stylesheet" type="text/css" href="http://www.mi.com/css/webfont/product-miwifibox.min.css">
     <style type="text/css">
@@ -198,61 +200,58 @@
 
         <div class="section" id="section1">
             <div class="slide" id="slide1" data-anchor="slide1">
-                <div style="height:120px; width:120px; background:rgba(255,255,255,0.6); position:absolute; left:10%;top:0%;"><img style="width:90px; margin-top:10px; "src="img/section1-logo.png"></div>
+                <div class="animated slideInLeft section1-logo">
+                    <img class="section1-logo-img" src="img/section1_logo.png">
+                </div>
                 <div style="top: 2%;position: relative;" class="page_container4">
-                    <div style="display: block;height: 10%;text-align: center;font-size: 2.1em;margin-bottom:2%">{{page2_1_title}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin:1%;margin-left:8%;margin-right:8%;">{{page2_1_1}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin:1%;margin-left:8%;margin-right:8%;">{{page2_1_2}}</div>
-                    <div style="width:30%;height:auto;position:relative;left:35%;">
-                        <img src="./img/1_f1.png" style="width:100%;height:auto;">
+                    <div class="page2-title">{{page2_1_title}}</div>
+                    <div class="page2-content">{{page2_1_1}}</div>
+                    <div class="animated zoomIn f1-1">
+                        <img src="./img/1_f1.png" class="section-img">
                     </div>
                 </div>
             </div>
 
             <div class="slide" id="slide2" data-anchor="slide2">
-                <div style="height:120px; width:120px; background:rgba(255,255,255,0.6); position:absolute; left:60%;top:0%;"><img style="width:90px; margin-top:10px; "src="img/section1-logo.png"></div>
+                <div class="section1-logo section1-position"><img  class="section1-logo-img" src="img/section1_logo.png"></div>
                 <div style="top: 2%;position: relative;" class="page_container4">
-                    <div style="display: block;height: 10%;text-align: center;font-size: 2.1em;margin-bottom:2%">{{page2_2_title}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin:1%;margin-left:8%;margin-right:8%;">{{page2_2_1}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin:1%;margin-left:8%;margin-right:8%;">{{page2_2_2}}</div>
-                    <div style="width:30%;height:auto;position:relative;left:35%;">
-                        <img src="./img/1_f2.png" style="width:100%;height:auto;">
+                    <div class="page2-title">{{page2_2_title}}</div>
+                    <div class="page2-content">{{page2_2_1}}</div>
+                    <div class="animated zoomIn f1-1">
+                        <img src="./img/1_f2.png" class="section-img">
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="section" id="section2">
             <div class="slide" id="slide3" data-anchor="slide3">
-                <div style="top: 2%;position: relative;color:#ffffff;" class="page_container4">
-                    <div style="display: block;height: 10%;text-align: center;font-size: 2.5em;margin-bottom:2%">{{page3_2_title}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin:1%;margin-left:6%;margin-right:6%;">{{page3_2_1}}</div>
-                    <div style="width:60%;height:auto;position:relative;left:20%;margin-top:3%;">
-                        <img src="./img/2_bg2.3.png" style="width:100%;height:auto;">
+                <div class="page_container4 section2-server">
+                    <div class="page3-title">{{page3_2_title}}</div>
+                    <div class="page3-title page3-content">{{page3_2_1}}</div>
+                    <div class="section2-benefits">
+                        <img src="./img/2_bg2.3.png" class="section-img">
                     </div>
                 </div>
             </div>
 
             <div class="slide" id="slide4" data-anchor="slide4">
-                <div style="top: 2%;position: relative;color:#ffffff;" class="page_container4">
-                    <div style="display: block;height: 10%;text-align: center;font-size: 2.5em;margin-bottom:2%;margin-top:3%;">{{page3_1_title}}</div>
-                    <div style="display: block;height: 10%;text-align: center;font-size: 1.5em;margin-left:6%;margin-right:6%;margin-bottom:10px;">{{page3_1_1}}</div>
-                    <div style="width:60%;height:auto;position:relative;left:20%;margin-top:3%;">
-                        <img src="./img/2_bg2.4.png" style="width:100%;height:auto;">
+                <div class="page_container4 section2-server">
+                    <div class="page3-title">{{page3_1_title}}</div>
+                    <div class="page3-title page3-content">{{page3_1_1}}</div>
+                    <div class="section2-benefits">
+                        <img src="./img/2_bg2.4.png" class="section-img">
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="section" id="section3">
-
-
             <div class="slide" id="slide6" data-anchor="slide6">
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f1.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f1.1.jpg" class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -262,7 +261,7 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f2.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f2.1.jpg"  class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -272,7 +271,7 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f3.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f3.1.jpg"  class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -282,7 +281,7 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f4.2.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f4.2.jpg" class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -292,7 +291,7 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f5.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f5.1.jpg" class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -302,7 +301,7 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f6.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f6.1.jpg" class="section3-worker">
                         </div>
                     </div>
                 </div>
@@ -312,12 +311,11 @@
                 <div class="page_container"  >
                     <div>
                         <div>
-                            <img src="./img/3_f7.1.jpg" style="width:55%;height:auto;position: relative;">
+                            <img src="./img/3_f7.1.jpg" class="section3-worker">
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="section" id="section4">
@@ -327,19 +325,19 @@
                         <tbody>
                         <tr>
                             <td rowspan="2">
-                                <img class="ipad-none" src="{{page5_1_image}}" style="height:70%;max-height:240px; margin-right:90px;">
+                                <img class="ipad-none page5-icon" src="{{page5_1_image}}">
                             </td>
                             <td>
-                                <div style="font-size: 2.5em;text-align:left;">{{page5_1_title}}</div>
+                                <div class="page5-title">{{page5_1_title}}</div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_1_content}}
                                 </div>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_1_mailbox}}
                                 </div>
@@ -356,19 +354,19 @@
                         <tbody>
                         <tr>
                             <td rowspan="2">
-                                <img class="ipad-none" src="{{page5_5_image}}" style="height:50%;max-height:240px; margin-right:90px;">
+                                <img class="ipad-none page5-icon" src="{{page5_5_image}}">
                             </td>
                             <td>
-                                <div style="font-size: 2.5em;text-align:left;">{{page5_5_title}}</div>
+                                <div  class="page5-title">{{page5_5_title}}</div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_5_content}}
                                 </div>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_1_mailbox}}
                                 </div>
@@ -385,19 +383,19 @@
                         <tbody>
                         <tr>
                             <td rowspan="2">
-                                <img class="ipad-none" src="{{page5_3_image}}" style="height:50%;max-height:240px; margin-right:90px;">
+                                <img class="ipad-none page5-icon" src="{{page5_3_image}}">
                             </td>
                             <td>
-                                <div style="font-size: 2.5em;text-align:left;">{{page5_3_title}}</div>
+                                <div  class="page5-title">{{page5_3_title}}</div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_3_content}}
                                 </div>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_1_mailbox}}
                                 </div>
@@ -414,19 +412,19 @@
                         <tbody>
                         <tr>
                             <td rowspan="2">
-                                <img class="ipad-none" src="{{page5_4_image}}" style="height:50%;max-height:240px; margin-right:90px;">
+                                <img class="ipad-none page5-icon" src="{{page5_4_image}}">
                             </td>
                             <td>
-                                <div style="font-size: 2.3em;text-align:left;">{{page5_4_title}}</div>
+                                <div  class="page5-title">{{page5_4_title}}</div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_4_content}}
                                 </div>
-                                <div style="font-size: 1.5em;padding-top: 10px;text-align:left;">
+                                <div  class="page5-content">
                                     <!-- <img src="img/btn_detail.png" class="details" style=""> -->
                                     {{page5_1_mailbox}}
                                 </div>
@@ -437,24 +435,23 @@
                 </div>
             </div>
         </div>
+
         <div class="section " id="section5" style="background-color:#ffffff;">
             <div >
                 <div >
                     <div>
                         <!-- <img src="./img/contact.svg" style="height:76%;max-height:170px;padding-right:22px;display:inline-table;">-->
-                        <div style="display: block;height: 10%;text-align: center;font-size: 2.3em;margin-bottom:6%">加入波纹，现在就开始吧！</div>
+                        <div class="section5-join">加入波纹，现在就开始吧！</div>
 
-                        <div style="width:76%;margin:0 auto;color:#707070;">
-
-                            <img class="ipad-none" src="./img/contact2.jpg" style="height:76%;max-height:250px; max-width:250px; min-height:170px;">
+                        <div class="section5-follow">
+                            <img class="ipad-none section5-contact2" src="./img/contact2.jpg">
                             <div style="font-size:1.3em;">关注波纹微信</div>
                         </div>
                     </div>
 
-                    <div style="width:100%;color:#000;bottom:0px;position:absolute;">
-
-                        <div style="padding-bottom:20px;font－size:12px; background:#f0f0f0; line-height:20px;">
-                            <div style="padding-top:20px;">商业合作请联系<span style="color:#000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：bd@bowenpay.com</span></div>
+                    <div class="section5-work">
+                        <div class="section5-business">
+                            <div style="padding-top:20px;">商业合作请联系<span style="color:#000;"><br/>邮箱：bd@bowenpay.com</span></div>
                             <div>@2014-2015 北京波纹科技有限公司 京ICP备14062265号-1</div>
                         </div>
                     </div>
