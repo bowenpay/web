@@ -1,0 +1,151 @@
+img.section-img {
+    width:100%;
+    height:auto
+}
+.section1-logo {
+    height:120px;
+    width:120px;
+    background:rgba(255,255,255,0.6);
+    position:absolute;
+    left:10%;top:0%;
+}
+.section1-position {
+    left:60%;
+}
+.section1-logo img.section1-logo-img {
+    width:90px;
+    margin-top:10px;
+}
+.f1-1 {
+    width:30%;
+    height:auto;
+    position:relative;
+    left:35%;
+}
+.page2-title {
+    display: block;
+    height: 10%;
+    text-align: center;
+    font-size: 2.1em;
+    margin-bottom:2%
+}
+.page2-content {
+    display: block;
+    height: 10%;
+    text-align: center;
+    font-size: 1.5em;
+    margin:1%;
+    margin-left:8%;
+    margin-right:8%;
+}
+.section2-server {
+    top: 2%;
+    position: relative;
+    color:#ffffff;
+}
+.section2-benefits {
+     width:60%;
+     height:auto;
+     position:relative;
+     left:20%;
+     margin-top:3%;
+ }
+.page3-title {
+    display: block;
+    width:auto;
+    height: 10%;
+    text-align: center;
+    font-size: 2.5em;
+    margin:0% 5% 2% 5%;
+}
+.page3-content {
+    font-size: 1.5em;
+}
+.page_container img.section3-worker {
+    width:55%;
+    height:auto;
+    position: relative;
+}
+.page5-title {
+    font-size: 2.5em;
+    text-align:left;
+}
+.page5-content {
+    font-size: 1.5em;
+    padding-top: 10px;
+    text-align:left;
+}
+td img.page5-icon {
+    height:70%;
+    max-height:240px;
+    margin-right:90px;
+}
+.section5-join {
+    display: block;
+    height: 10%;
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 6%;
+}
+.section5-follow {
+    width:76%;
+    margin:0 auto;
+    color:#707070
+}
+.section5-follow img.section5-contact2 {
+    max-height:250px;
+    max-width:250px;
+}
+.section5-work {
+    width:100%;
+    color:#000;
+    bottom:0px;
+    position:absolute;
+}
+.section5-business {
+    padding-bottom:20px;
+    font－size:12px;
+    background:#f0f0f0;
+    line-height:20px;
+}
+@media only screen and (max-width: 767px){
+    .section1-logo {
+        height:90px;
+        width:90px;
+    }
+    .section1-logo img.section1-logo-img {
+        width:60px;
+        margin-top:10px;
+    }
+    .f1-1 {
+        width:60%;
+        left:20%;
+        margin-top:10%;
+    }
+    .page2-title,.page3-title,.page5-title {
+        font-size: 1.3em;
+    }
+    .page2-content,.page3-content,.page5-content {
+        font-size: 1em;
+    }
+    td img.page5-icon {
+        height:40%;
+        margin-right:35px;
+    }
+    .section2-benefits {
+        width:80%;
+        left:10%;
+    }
+    .page_container img.section3-worker {
+        width:70%;
+        height:auto;
+        position: relative;
+    }
+    .section5-join {
+        font-size: 1.5em;
+    }
+    .section5-follow img.section5-contact2 {
+        max-height:150px;
+        max-width:150px;
+    }
+}
